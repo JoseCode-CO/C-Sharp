@@ -59,6 +59,36 @@ class HelloWord{
         string myString = "Hello";
         Console.WriteLine(myString[0]);  // Outputs "H"
 
+
+        //Bucles
+        int i = 0;
+        while (i < 5) 
+        {
+        Console.WriteLine(i);
+        i++;
+        }
+
+        for (int i2 = 0; i2 < 5; i2++) 
+        {
+        Console.WriteLine(i2);
+        }
+
+        string[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+        foreach (string i3 in cars) 
+        {
+        Console.WriteLine(i3);
+        }
+
+
+        for (int i4 = 0; i4 < 10; i4++) 
+        {
+        if (i4 == 4) 
+        {
+            break;
+        }
+        Console.WriteLine(i4);
+        }
+
     }
   
 }
