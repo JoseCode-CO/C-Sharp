@@ -89,6 +89,36 @@ class HelloWord{
         Console.WriteLine(i4);
         }
 
+        int[] myArray2 = { 1, 2, 3, 4, 5 };
+
+        string[] cars2 = {"Volvo", "BMW", "Ford", "Mazda"};
+        for (int i4 = 0; i4 < cars.Length; i++) 
+        {
+        Console.WriteLine(cars[i]);
+        }
+
+        string[] cars5 = {"Volvo", "BMW", "Ford", "Mazda"};
+        foreach (string i5 in cars) 
+        {
+        Console.WriteLine(i5);
+        }
+
+
+        int[,] numbers = { {1, 4, 2}, {3, 6, 8} };
+        numbers[0, 0] = 5;  // Change value to 5
+        Console.WriteLine(numbers[0, 0]); // Outputs 5 instead of 1
+
+        try
+        {
+            // código que puede lanzar una excepción
+        }
+        catch (Exception ex)
+        {
+            // código para manejar la excepción
+        }
+
+
+
     }
   
 }
