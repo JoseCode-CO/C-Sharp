@@ -1,0 +1,4 @@
+C#: Es un lenguaje creado en el año 2000
+.net : Es un marco de trabajo
+
+crear proyecto: dotnet new console
