@@ -2,3 +2,7 @@ C#: Es un lenguaje creado en el año 2000
 .net : Es un marco de trabajo
 
 crear proyecto: dotnet new console
+
+dotnet run: Corre el proyecto desde la consolas
+
+C# es fuertemente tipado, hay que poner siempre el tipo de datos, en este lenguaje es muy importante las clases
