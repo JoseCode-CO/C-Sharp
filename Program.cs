@@ -7,7 +7,7 @@ class HelloWord{
     static void Main(String[] arg){
 
         //Imprimir
-        Console.WriteLine("Hello, World!"); 
+      /*  Console.WriteLine("Hello, World!"); 
 
         //C# tiene varios tipos de datos, el cual se le debe especificar el tipo de datos
         int myNum = 5;               // Integer (whole number)
@@ -33,7 +33,7 @@ class HelloWord{
 
         //Implicita
 
-        int myInt = 92;
+       /* int myInt = 92;
         double myDouble = myInt;      
 
         Console.WriteLine(myInt);      
@@ -115,9 +115,11 @@ class HelloWord{
         catch (Exception ex)
         {
             // código para manejar la excepción
-        }
+        }*/
 
-
+          //Instanciamos la clase de ejercicios basicos
+          Ejercicios miInstancia = new Ejercicios(); 
+          miInstancia.EjerciciosBasicos();
 
     }
   
