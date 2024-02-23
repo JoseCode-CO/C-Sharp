@@ -6,3 +6,8 @@ crear proyecto: dotnet new console
 dotnet run: Corre el proyecto desde la consolas
 
 C# es fuertemente tipado, hay que poner siempre el tipo de datos, en este lenguaje es muy importante las clases
+
+.net : Es un marco de trabajo que te va indicando como hacer una o otra cosa, nacio en 2002 siendo una version privada
+es un framework desarrollado por Microsoft que proporciona un entorno de ejecución para construir, implementar y ejecutar aplicaciones
+
+Entity Framework: Es un ORM (Object-Relational Mapping) de .NET que facilita el acceso y manipulación de datos en bases de datos relacionales.
