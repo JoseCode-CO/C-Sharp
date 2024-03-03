@@ -124,3 +124,30 @@ class HelloWord{
     }
   
 }
+
+
+//Instanciamos la clase
+var sale = new Sale(15);
+var menssage = sale.GetInfo();
+
+Console.WriteLine(menssage);
+class Sale
+{
+    public decimal Total { get; set; }
+
+
+    //_Sirve para variables privadass
+    private decimal _some;
+
+    //El contructor nos va a permitir que cuando se instancie la clase se pueda definir valores requeridos
+    public Sale(decimal total)
+    {
+        Total = total;
+    }
+
+
+    public string GetInfo()
+    {
+        return "El total es" + Total;
+    }
+}
