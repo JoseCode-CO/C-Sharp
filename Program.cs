@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System;
+using System.Dynamic;
 
 
 class HelloWord{
@@ -150,4 +151,15 @@ class Sale
     {
         return "El total es" + Total;
     }
+
+}
+
+ interface Isale{
+     decimal Total {get; set;}
+} 
+
+public class Data : Isale{
+
+    public decimal Total{get; set;}
+
 }
